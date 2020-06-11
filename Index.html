@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Ejemplo</title>
 
+<head>
+    
+    <title>Hola mundo</title>
+    <meta charset="UTF-8">
 </head>
 <body>
     <h1>Algunos comandos</h1>
@@ -14,12 +15,31 @@
     <table width="200" border="1" bgcolor="white">
         <tr>
             <th>titulo 1</th>
-            <th>titulo 2</th>g
+            <th>titulo 2</th>
         </tr>
         <tr>
             <td>dato 1</td>
             <td>dato 2</td> 
         </tr>
-    </table>
+    </table> <br>
+    crear un select <br>
+    <select name="lista1">
+        <option>valor 1</option>
+        <option>valor 2 </option>
+        <option>valor 3 </option>
+    </select>
+    <br>
+    crear un formulario <br>
+    <form name="formulario1" action="/recursoenservidor">
+        <fieldset>
+            <legend> Persona: </legend>
+            Name: <input type="text" size="30" name="nombre"/> <br/>
+            Email: <input type="text" size="30" name="correo"/> <br/>
+            <button type="submit">
+                Enviar datos
+            </button>
+        </fieldset>
+
+    </form>
 </body>
 </html>
